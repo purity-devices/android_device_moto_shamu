@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_shamu.mk
+    $(LOCAL_DIR)/purity_shamu.mk

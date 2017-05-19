@@ -1,7 +1,7 @@
 [
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_moto_shamu",
+    "remote": "github",
+    "repository": "purity-devices/android_kernel_moto_shamu",
     "target_path": "kernel/moto/shamu",
     "revision": "android-7.1"
   },
@@ -18,9 +18,15 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_packages_apps_SnapdragonCamera",
+    "remote": "github",
+    "repository": "AndroidRul3z/android_packages_apps_SnapdragonCamera",
     "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "DonkeyCoyote/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
     "revision": "android-7.1"
   }
 ]

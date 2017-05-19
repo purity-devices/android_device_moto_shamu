@@ -1,11 +1,11 @@
 # Include omni board-specific configurations
-include device/moto/shamu/BoardConfigOmni.mk
+include device/moto/shamu/BoardConfigPurity.mk
 
 # Inherit base AOSP device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
-# Override product naming for Omni
-PRODUCT_NAME := omni_shamu
+# Override product naming
+PRODUCT_NAME := purity_shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
@@ -15,9 +15,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="google/shamu/shamu:7.1.1/N6F26U/3687496:user/release-keys" \
     PRIVATE_BUILD_DESC="shamu-user 7.1.1 N6F26U 3687496 release-keys"
 
-# Inherit OmniROM parts
-$(call inherit-product, vendor/omni/config/gsm.mk)
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit Purity Rom parts
+$(call inherit-product, vendor/purity/config/gsm.mk)
+$(call inherit-product, vendor/purity/config/common.mk)
 
 # Inherit proprietary bits
 $(call inherit-product-if-exists, vendor/motorola/shamu/device-vendor.mk)

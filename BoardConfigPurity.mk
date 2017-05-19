@@ -6,7 +6,7 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 
 # Include additional properties in separate system.prop
-TARGET_SYSTEM_PROP := device/moto/shamu/omni_system.prop
+TARGET_SYSTEM_PROP := device/moto/shamu/purity_system.prop
 
 # Enable sound trigger for hotword detection
 BOARD_SUPPORTS_SOUND_TRIGGER := true
